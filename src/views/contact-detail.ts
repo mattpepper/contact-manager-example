@@ -1,8 +1,8 @@
 import {inject} from 'aurelia-framework';
 import {EventAggregator} from 'aurelia-event-aggregator';
-import {WebAPI} from './web-api';
-import {ContactUpdated,ContactViewed} from './messages';
-import {areEqual} from './utility';
+import {WebAPI} from '../svc/web-api';
+import {ContactUpdated,ContactViewed} from '../messages';
+import {areEqual} from '../utility';
 
 interface Contact {
   firstName: string;
