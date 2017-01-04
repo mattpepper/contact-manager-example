@@ -116,6 +116,16 @@
           "aurelia-templating",
           "aurelia-templating-binding",
            "jquery",
+           {
+            "name": "jquery-validation",
+            "path": "../node_modules/jquery-validation/dist",
+            "main": "jquery.validate.min.js",
+            "deps": ["jquery"],
+            "exports": "$",
+            "resources": [
+              "additional-methods.js"
+            ]
+          },
           {
             "name": "bootstrap",
             "path": "../node_modules/bootstrap/dist",

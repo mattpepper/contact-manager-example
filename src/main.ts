@@ -1,5 +1,5 @@
 import {Aurelia} from 'aurelia-framework'
-import environment from './environment';
+import environment from './system/environment';
 import 'whatwg-fetch';
 
 //Configure Bluebird Promises.
