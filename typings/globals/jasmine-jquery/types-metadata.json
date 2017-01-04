@@ -1,0 +1,41 @@
+{
+    "authors": "Gregor Stamac <https://github.com/gstamac/>",
+    "definitionFilename": "index.d.ts",
+    "libraryDependencies": [
+        "jasmine",
+        "jquery"
+    ],
+    "moduleDependencies": [],
+    "libraryMajorVersion": "1",
+    "libraryMinorVersion": "5",
+    "libraryName": "Jasmine-JQuery 1.5.8",
+    "typingsPackageName": "jasmine-jquery",
+    "projectName": "https://github.com/velesin/jasmine-jquery",
+    "sourceRepoURL": "https://www.github.com/DefinitelyTyped/DefinitelyTyped",
+    "sourceBranch": "types-2.0",
+    "kind": "Global",
+    "globals": [
+        "appendLoadFixtures",
+        "appendLoadStyleFixtures",
+        "appendSetFixtures",
+        "appendSetStyleFixtures",
+        "getJSONFixture",
+        "jasmine",
+        "loadFixtures",
+        "loadJSONFixtures",
+        "loadStyleFixtures",
+        "preloadFixtures",
+        "preloadStyleFixtures",
+        "readFixtures",
+        "sandbox",
+        "setFixtures",
+        "setStyleFixtures",
+        "spyOnEvent"
+    ],
+    "declaredModules": [],
+    "files": [
+        "index.d.ts"
+    ],
+    "hasPackageJson": false,
+    "contentHash": "3bb9ecc20b119c58a93ec668c3c0f498947cafc8e705f5069274d8328f9c9a79"
+}
