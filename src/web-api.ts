@@ -1,5 +1,5 @@
 import { apiDataClient  } from './data-client'
-import { IContact } from './IContact'
+import { IContact } from './interfaces/IContact'
 
 let latency = 200;
 let id = 0;
