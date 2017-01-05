@@ -12,8 +12,8 @@ export class WebAPI extends apiDataClient{
   isRequesting = false;
   contacts = [];
   
-  constructor(){
-    super();
+  constructor(options?) {
+    super(Object.assign({}, options));    
   }
 
   getContactList(){

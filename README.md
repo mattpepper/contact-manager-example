@@ -5,7 +5,8 @@ Extending sample code from [Aurelia Docs](http://aurelia.io/hub.html#/doc/articl
 - [x] Wiring in web-api to get contact data (from app relative path) 
   - [x] using [aurelia-fetch-client](http://aurelia.io/hub.html#/doc/article/aurelia/fetch-client/latest/http-services/1)
   - [x] and add polyfill for `window.fetch`: [github/fetch](https://github.com/github/fetch)
-- [ ] Restructure `./src` for implied pattern (mvvm?)
+- [x] Restructure `./src` for implied pattern (mvvm?)
+- [ ] Update with simple tests
 - [ ] Switch web-api to get data using AWS-SDK, 
   - [ ] from AWS Dynamo db?
   - [ ] via lambda service

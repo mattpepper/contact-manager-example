@@ -1,0 +1,37 @@
+[
+  {
+    "id": null,
+    "firstName": "John",
+    "lastName": "Tolkien",
+    "email": "tolkien@inklings.com",
+    "phoneNumber": "867-5309"
+  },
+  {
+    "id": null,
+    "firstName": "Clive",
+    "lastName": "Lewis",
+    "email": "lewis@inklings.com",
+    "phoneNumber": "867-5309"
+  },
+  {
+    "id": null,
+    "firstName": "Owen",
+    "lastName": "Barfield",
+    "email": "barfield@inklings.com",
+    "phoneNumber": "867-5309"
+  },
+  {
+    "id": null,
+    "firstName": "Charles",
+    "lastName": "Williams",
+    "email": "williams@inklings.com",
+    "phoneNumber": "867-5309"
+  },
+  {
+    "id": null,
+    "firstName": "Roger",
+    "lastName": "Green",
+    "email": "green@inklings.com",
+    "phoneNumber": "867-5309"
+  }
+]
