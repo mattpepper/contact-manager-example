@@ -26,9 +26,8 @@ export function configure(aurelia: Aurelia) {
   ViewLocator.prototype.convertOriginToViewUrl = (origin: Origin): string => {
     let moduleId = origin.moduleId,
       id = (moduleId.endsWith('.js') || moduleId.endsWith('.ts')) ? moduleId.substring(0, moduleId.length - 3) : moduleId,
-      viewPath =  id.replace('view-models/', 'views/') + '.html';
-console.log(id);
-console.log(viewPath);
+      viewPath = 'views/' + id.replace('view-models/', '') + '.html';
+console.log(id + ': ' + viewPath);
     return viewPath;
   };
 
