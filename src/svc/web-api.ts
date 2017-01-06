@@ -16,12 +16,12 @@ export class WebAPI extends apiDataClient{
     super(Object.assign({}, options));    
   }
 
-  getContactList(){
+  getContactList(url: string){
     this.isRequesting = true;
     return new Promise(resolve => {
       setTimeout(() => {
         this.isRequesting = true;
-        let results = this.fetch('data/contacts.json')
+        let results = this.fetch(url)
           .then(response => {
             return response.json()
               .then(json => {

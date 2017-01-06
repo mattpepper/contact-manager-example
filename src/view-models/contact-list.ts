@@ -18,7 +18,7 @@ export class ContactList {
   }
 
   created(){
-    this.api.getContactList().then(contacts => this.contacts = contacts);
+    this.api.getContactList('data/contacts.json').then(contacts => this.contacts = contacts);
   }
 
   select(contact){

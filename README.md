@@ -7,6 +7,7 @@ Extending sample code from [Aurelia Docs](http://aurelia.io/hub.html#/doc/articl
   - [x] and add polyfill for `window.fetch`: [github/fetch](https://github.com/github/fetch)
 - [x] Restructure `./src` for `(m?-)v-vm` pattern
   - [x] move view related *view*.ts to `view-models/` folder
+  - [x] update ViewLocator
 - [ ] Update with simple tests
 - [ ] Switch web-api to get data using AWS-SDK, 
   - [ ] from AWS Dynamo db?
