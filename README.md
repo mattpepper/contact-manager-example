@@ -1,6 +1,13 @@
 # Sandbox code - Aurelia Contact List
 Extending sample code from [Aurelia Docs](http://aurelia.io/hub.html#/doc/article/aurelia/framework/latest/contact-manager-tutorial/1)
 
+## Setup
+1. Install [`aurelia-cli`](https://www.npmjs.com/package/aurelia-cli)
+2. Open a terminal, `cd` to the `contact-manager` folder
+3. Run the app using `au run` or `au run --watch`
+4. Open `http://localhost:9000/` in a browser
+5. BrowserSync's UI is available in `http://localhost:3001`
+
 ## Changes made to example code
 - [x] Wiring in web-api to get contact data 
   - [x] from app relative path
